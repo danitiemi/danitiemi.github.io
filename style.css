@@ -12,6 +12,7 @@
   /* min-height: 50px; */
   padding: 20px;
   /* position: fixed; */
+  background: rgba(13, 13, 13, 0.3);
 }
 
 .nav {
@@ -23,7 +24,7 @@
   margin: 0 auto;
   padding: 0;
 }
-.nav .logo {
+/* .nav .logo {
   margin-top: 40px;
   width: 160px;
   height: 150px;
@@ -32,15 +33,15 @@
 }
 .nav .logo:hover {
   transform: scale(1.2) rotate(5deg);
-}
+} */
 .nav .fab {
-  color: #4a0072;
+  color: #CCC;;
 }
 .nav .far {
-  color: #4a0072;
+  color: #CCC;
 }
 .nav .fas {
-  color: #4a0072;
+  color: #CCC;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -49,7 +50,7 @@
 .nav a {
   transition: all 0.5s;
   text-decoration: none;
-  color: #eee;
+  color: #CCC;
 }
 .nav a:hover {
   color: #0097a7;
@@ -64,17 +65,24 @@ html {
 
 header {
   height: 600px;
-  width: 700px;
-  font-family: "Fredericka the Great", cursive;
-  text-align: center;
+  width: 100%;
+  color: #CCC;
   /* background-color: #CCC; */
-  background-image: linear-gradient(to bottom right, rgba(13, 13, 13, 0.3), rgba(255, 255, 255, 0.6));
+  background-image: linear-gradient(to bottom, rgba(13, 13, 13, 0.3), rgba(255, 255, 255, 0.3));
   /* background: url("images/bg.png") no-repeat center; */
   background-size: cover;
   overflow: hidden;
   /* padding-top: 100px; */
+  padding-top: 40px;
+}
+
+header .welcome {
+  width: 50%;
+  font-family: "Fredericka the Great", cursive;
+  text-align: center;
   line-height: 1.5;
-  margin: 40px auto;
+  margin: 0 auto;
+  color: #CCC;
 }
 
 header .profile-image {
@@ -82,7 +90,7 @@ header .profile-image {
   width: 160px;
   height: 160px;
   border-radius: 50%;
-  border: 3px solid #7b1fa2;
+  border: 2px solid #7b1fa2;
   transition: all 0.5s;
 }
 header .profile-image:hover {
@@ -90,6 +98,10 @@ header .profile-image:hover {
 }
 header .superpower {
   color: #c2185b;
+}
+
+header .tag-name {
+  color: #7b1fa2;
 }
 
 body {
@@ -142,6 +154,8 @@ span .card-title {
 }
 
 footer {
+  /* background: rgba(255, 255, 255, 0.4); */
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(13, 13, 13, 0.1));
   /* background-image: url(images/bg.png); */
   width: 100%;
   min-height: 30px;
