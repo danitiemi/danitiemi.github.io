@@ -9,9 +9,7 @@
 
 .main-nav {
   width: 100%;
-  /* min-height: 50px; */
-  padding: 20px;
-  /* position: fixed; */
+  padding: 30px;
   background: rgba(13, 13, 13, 0.3);
 }
 
@@ -64,16 +62,13 @@ html {
 }
 
 header {
-  height: 600px;
+  height: 500px;
   width: 100%;
-  color: #CCC;
-  /* background-color: #CCC; */
-  background-image: linear-gradient(to bottom, rgba(13, 13, 13, 0.3), rgba(255, 255, 255, 0.3));
-  /* background: url("images/bg.png") no-repeat center; */
+  color: #e7e6e8;
+  background-image: linear-gradient(to bottom, rgba(13, 13, 13, 0.3), rgba(255, 255, 255, 0.25));
   background-size: cover;
   overflow: hidden;
-  /* padding-top: 100px; */
-  padding-top: 40px;
+  /* padding-top: 0px; */
 }
 
 header .welcome {
@@ -97,11 +92,20 @@ header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
 header .superpower {
-  color: #c2185b;
+  /* color: #19a099; */
+  /* color: #0ad6cb; */
+  color: #7b1fa2;
+  /* color: #7c528e */
 }
 
 header .tag-name {
-  color: #7b1fa2;
+  color: #19a099;
+
+  /* color: #7b1fa2; */
+  /* color:#673AB7 */
+  /* color: #b949e8; */
+  font-size: 2.5em;
+  ;
 }
 
 body {
@@ -155,7 +159,7 @@ span .card-title {
 
 footer {
   /* background: rgba(255, 255, 255, 0.4); */
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(13, 13, 13, 0.1));
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.25), rgba(13, 13, 13, 0.1));
   /* background-image: url(images/bg.png); */
   width: 100%;
   min-height: 30px;
@@ -164,14 +168,17 @@ footer {
 }
 footer .copyright {
   font-size: 1em;
+  color: #CCC;
 }
 footer ul {
   list-style-type: none;
   display: flex;
   justify-content: center;
+  padding-right: 40px;
 }
 footer ul li {
   padding: 5px 10px;
+  font-size: 2em;
 }
 
 a.social {
@@ -187,17 +194,20 @@ a:hover {
   opacity: 1;
 }
 
-a.linkedin {
-  background-image: url(images/linkedin.png);
-  background-size: 48px 40px;
+li .fa-github-square {
+  color:#000;
 }
 
-a.github {
-  background-image: url(images/github.png);
+li .fa-dribbble-square {
+  /* color: #c7057d; */
+  color: #b72582;
+}
+li .fa-instagram {
+  color: #d4c690;
+}
+li .fa-linkedin {
+  color: #0e5782;
 }
 
-a.instagram {
-  background-image: url(images/instagram.png);
-}
 
 /*# sourceMappingURL=style.css.map */
