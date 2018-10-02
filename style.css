@@ -62,13 +62,11 @@ html {
 }
 
 header {
-  height: 500px;
   width: 100%;
   color: #e7e6e8;
   background-image: linear-gradient(to bottom, rgba(13, 13, 13, 0.3), rgba(255, 255, 255, 0.25));
   background-size: cover;
   overflow: hidden;
-  /* padding-top: 0px; */
 }
 
 header .welcome {
